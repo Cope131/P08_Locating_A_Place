@@ -26,6 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="North"
+            android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp" />
         <Button
             android:id="@+id/central_button"
@@ -39,6 +40,12 @@
             android:layout_height="wrap_content"
             android:text="East"/>
     </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
 
     <fragment
         android:id="@+id/map"
