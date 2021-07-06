@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "P08_Locating_A_Place"
